@@ -39,7 +39,7 @@
   margin-left: 250px;
   padding: 20px;
   flex: 1;
-  background: linear-gradient(135deg, #cedc80, #87dce4); /* Gradient from light orange to light red */
+  background: linear-gradient(135deg, #477ec2, #87dce4); /* Gradient from light orange to light red */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
   transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */

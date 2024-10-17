@@ -1,0 +1,68 @@
+.salary-details-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.current-salary {
+    background-color: #d1ecf1;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 5px solid #007bff;
+}
+
+.current-salary h2 {
+    color: #007bff;
+}
+
+.current-salary p {
+    margin: 5px 0;
+}
+
+.payment-history {
+    margin-top: 30px;
+}
+
+.payment-history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.payment-history th, .payment-history td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.payment-history th {
+    background-color: #f1f1f1;
+}
+
+.fee-management {
+    margin-top: 20px;
+    background-color: #fff3cd;
+    padding: 15px;
+    border-left: 5px solid #ffc107;
+}
+
+.fee-management form {
+    margin-top: 10px;
+}
+
+.fee-management label, .fee-management input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

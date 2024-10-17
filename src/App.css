@@ -2,12 +2,12 @@
   display: flex;
   height: 100vh;
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(to right, #e0f7fa, #e1bee7); /* Soft gradient background */
+  background: linear-gradient(to right, #12cde6, #cb0fec);
 }
 
 .sidebar {
   width: 250px;
-  background-color: #343a40;
+  background-color: #0f70d0;
   padding: 20px;
   position: fixed;
   height: 100%;
@@ -27,18 +27,24 @@
   text-decoration: none;
   margin-bottom: 10px;
   transition: background 0.3s;
+  border-radius: 20px;
 }
 
 .sidebar a:hover {
-  background-color: #495057;
+  background-color: #6fcd28;
 }
+
 
 .main-content {
   margin-left: 250px;
   padding: 20px;
   flex: 1;
-  background-color: #f8f9fa;
+  background: linear-gradient(135deg, #a0cad2, #a4e6e0); /* Gradient from light orange to light red */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
 }
+
 
 .dashboard-header {
   font-size: 2.5em;

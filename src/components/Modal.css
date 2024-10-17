@@ -1,0 +1,53 @@
+/* src/components/Modal.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Slightly darker overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    width: 400px; /* Increased width for better layout */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.modal-content h2 {
+    margin-bottom: 15px;
+    text-align: center; /* Center title */
+}
+
+.modal-content label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc; /* Border styling */
+    border-radius: 4px; /* Rounded input fields */
+}
+
+.modal-content button {
+    margin-top: 10px;
+    background-color: #007BFF; /* Button color */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+}

@@ -9,6 +9,7 @@ import SurgeryBooking from './pages/SurgeryBooking';
 import PatientDetails from './pages/PatientDetails';
 import './App.css';
 
+
 function App() {
     return (
         <Router>
